@@ -3,10 +3,10 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 
 
 module.exports = {
-  entry : './app/index.js',
+  entry : './index.js',
   output : {
       path : path.resolve(__dirname , 'build'),
-      filename: 'index_bundle.js',
+      filename: 'crypto-library-lib.js',
       libraryTarget: 'commonjs2'
   },
   module : {

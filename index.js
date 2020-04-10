@@ -1,5 +1,5 @@
-import {decodeCipherNumber} from "./decode-number";
-import { encodeCharacter } from "./encode-string";
+import {decodeCipherNumber} from "./component/decode-number"
+import { encodeCharacter } from "./component/encode-string";
 
 export const crypto = (function () {
 

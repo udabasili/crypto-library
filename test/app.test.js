@@ -1,4 +1,4 @@
-import { crypto } from "../app/index";
+import { crypto } from "../index";
 
 describe('result', () => {
 
